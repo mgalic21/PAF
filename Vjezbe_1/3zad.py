@@ -1,5 +1,3 @@
-
-    
 i = 0
 j = 0
 k = 0
@@ -19,7 +17,8 @@ while j == 0:
 while k == 0:
     try:
         x2 = int(input("Unesi x komponentu 2. tocke: "))
-        k += 1
+        if x1 != x2:
+            k += 1
     except:
         print("Niste unijeli valjani podatak.")      
 while l == 0:
